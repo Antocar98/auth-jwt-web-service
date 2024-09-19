@@ -1,0 +1,14 @@
+com/xantrix/webapp/security/JWTWebSecurityConfig.class
+com/xantrix/webapp/security/JwtConfig.class
+com/xantrix/webapp/controller/JwtTokenResponse.class
+com/xantrix/webapp/controller/JwtAuthenticationRestController.class
+META-INF/spring-configuration-metadata.json
+com/xantrix/webapp/security/CustomUserDetailsService.class
+com/xantrix/webapp/controller/JwtTokenRequest.class
+com/xantrix/webapp/security/JwtTokenUtil.class
+com/xantrix/webapp/security/UserConfig.class
+com/xantrix/webapp/FiltersCorsConfig$1.class
+com/xantrix/webapp/Application.class
+com/xantrix/webapp/security/Utenti.class
+com/xantrix/webapp/FiltersCorsConfig.class
+com/xantrix/webapp/controller/AuthenticationException.class

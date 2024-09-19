@@ -1,0 +1,12 @@
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/security/JWTWebSecurityConfig.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/security/CustomUserDetailsService.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/controller/JwtTokenRequest.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/Application.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/FiltersCorsConfig.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/security/JwtTokenUtil.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/controller/JwtAuthenticationRestController.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/controller/JwtTokenResponse.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/security/UserConfig.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/security/Utenti.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/controller/AuthenticationException.java
+/Users/antonio.carnevale/Documents/MicroServices/authsrvjwt/src/main/java/com/xantrix/webapp/security/JwtConfig.java

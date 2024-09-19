@@ -1,0 +1,40 @@
+# ==============================================================
+# = Authentication Server JWT
+# ==============================================================
+spring:
+    application:
+        name: AUTH-SERVICE
+server:
+    port: 9100
+
+# ==============================================================
+# = Parametri Servizio gestUser
+# ==============================================================
+gestuser:
+  srvUrl: http://localhost:8100/api/utenti/cerca/userid/
+  userId: ReadUser
+  password: BimBumBam_2018
+
+# ==============================================================
+# = Parametri Sicurezza JWT 
+# ==============================================================
+sicurezza:
+    uri: /auth
+    refresh: /refresh
+    header: Authorization
+    prefix: Bearer 
+    expiration: 3600
+    secret: $aBcDeFgHiJkLmNoPqRsTuVwXyZ1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+
+# ==============================================================
+# = Livello Log di Sicurezza
+# ==============================================================  
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+        
+
+  
+ 
