@@ -11,7 +11,7 @@ server:
 # = Parametri Servizio gestUser
 # ==============================================================
 gestuser:
-  srvUrl: http://localhost:8100/api/utenti/cerca/userid/
+  srvUrl: http://gest-user-web-service:8100/api/utenti/cerca/userid/
   userId: ReadUser
   password: BimBumBam_2018
 
