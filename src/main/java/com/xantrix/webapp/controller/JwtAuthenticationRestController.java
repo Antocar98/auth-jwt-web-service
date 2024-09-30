@@ -103,6 +103,8 @@ public class JwtAuthenticationRestController
 
 		try 
 		{
+			log.info("Utente" + username + "password" + password);
+
 			authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
 		} 
 		catch (DisabledException e) 

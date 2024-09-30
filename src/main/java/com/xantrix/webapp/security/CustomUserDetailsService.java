@@ -72,6 +72,8 @@ public class CustomUserDetailsService implements UserDetailsService
 			String SrvUrl = Config.getSrvUrl();
 
 			url = new URI(SrvUrl + UserId);
+
+			log.info("Sto andando ad effettuare la seguente chiamata" + url.toString());
 		} 
 		catch (URISyntaxException e) 
 		{
