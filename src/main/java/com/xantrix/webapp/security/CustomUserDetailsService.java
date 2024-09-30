@@ -73,11 +73,9 @@ public class CustomUserDetailsService implements UserDetailsService
 
 			url = new URI(SrvUrl + UserId);
 
-			log.info("Sto andando ad effettuare la seguente chiamata" + url.toString());
-		} 
+		}
 		catch (URISyntaxException e) 
 		{
-			 
 			e.printStackTrace();
 		}
 		
@@ -88,10 +86,12 @@ public class CustomUserDetailsService implements UserDetailsService
 
 		try 
 		{
-			utente = restTemplate.getForObject(url, Utenti.class);	
+			log.info("Sto andando ad effettuare la seguente chiamata " + url.toString());
+			utente = restTemplate.getForObject(url, Utenti.class);
 		} 
 		catch (Exception e) 
 		{
+			e.printStackTrace();
 			String ErrMsg = String.format("Connessione al servizio di autenticazione non riuscita!!");
 			
 			log.warning(ErrMsg);
